@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    margin-top: -20;
+    padding: 0;
+    background-color: dodgerblue;
+    color: white;
+}
+
+body > header > h1 {
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+
+body > header > nav > ul > li{
+    display: inline;
+    list-style: none;
+    color: white;
+    
+}
+
+body > header > nav > ul {
+    position: relative;
+    bottom: 30px;   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.login {
+    margin-left: 50px;
+}
+.categories{
+    margin-left: 50px;
+}
+
+.latest_news{
+    float: right;
+    margin: 30px ;
+}
+
+.main_article{
+    position:relative;
+}
+
+/* .latest_news > p {
+    word-wrap: break-word;
+} */
